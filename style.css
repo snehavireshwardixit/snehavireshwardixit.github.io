@@ -1,0 +1,274 @@
+/*---
+
+  theme by sneha <3
+  created summer 2022.
+  icons by phosphor icons >> https://phosphoricons.com/
+  font: Rajdhani by Indian Type Foundry via Google Fonts >>https://fonts.google.com/specimen/Rajdhani
+
+---*/
+
+/*---BASIC STYLE OPTIONS---*/
+:root{
+  --textcolor:#1d1d1d;
+  --bgcolor:#fcfafc;
+  --wallpaper:#ccc;
+  --accent1:#477998;
+  --accent2:#1A0A7F;
+  --bordercolor:#1d1d1d;
+}
+
+::selection{
+    color:var(--bgcolor);
+    background-color:var(--textcolor);
+  }
+
+
+ *{
+   box-sizing:border-box;
+ }
+
+ html,body{overflow-y:scroll; }
+
+body{
+  display:inline;
+  font-family:"Rajdhani", sans-serif;
+  font-weight:bold;
+  font-size:15px;
+  color:var(--textcolor);
+  background-color: var(--wallpaper);
+  line-height:120%;
+  word-wrap:break-word;
+  letter-spacing:0.04em;
+  margin-top:0px;
+  margin:0;
+  padding:0;
+}
+
+i{
+  font-size:18px;
+  vertical-align:-0.25em;
+}
+
+img{
+  max-width:100%;
+  border:2px solid;
+  border-radius:3px;
+}
+
+a{
+  color:var(--accent1);
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+   transition: all 0.15s;
+}
+
+a:hover{
+  color:var(--accent2);
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+   transition: all 0.15s;
+}
+
+header{
+  position: fixed;
+  width:100%;
+  margin-top:0%;
+  display:inline-block;
+  position:fixed;
+  height:3%;
+  width:100%;
+  border-bottom:2px solid;
+  background-color:var(--bgcolor);
+  font-weight:bold;
+  z-index:9999;
+}
+
+header i{
+  padding-left:5px;
+  font-size:1.7em;
+  vertical-align:-50%;
+}
+
+.header-left{
+  margin-left:0;
+  position:fixed;
+  vertical-align:center;
+}
+
+.header-right{
+  position:fixed;
+  margin-right:0;
+  margin-left:92%;
+}
+
+.left-sidebar{
+  display:inline-block;
+  position:fixed;
+  margin-left:20%;
+  margin-top:5%;
+  width:10%;
+  border:2px solid;
+  border-color:var(bordercolor);
+  border-radius:3px;
+  background-color:var(--bgcolor);
+  padding:0px 0px 10px 0px;
+  text-align:center;
+}
+
+.left-sidebar img{
+  width:100%;
+  border:2px solid;
+}
+
+
+.left-sidebar a{
+  width:100%;
+  text-transform:capitalize;
+  font-size:1.25em;
+  font-weight:bold;
+  line-height:250%;
+  margin-top:10px;
+  border:2px solid;
+  border-radius:3px;
+  background-color:var(--bgcolor);
+  color:var(--textcolor);
+  text-decoration:none;
+  display:inline-block;
+  padding:0 0 0 0;
+}
+
+.left-sidebar a:hover{
+  border-color:var(--textcolor);
+  color:var(--bgcolor);
+  background-color:var(--textcolor)
+}
+
+.scrolling{
+  display:block;
+  position:absolute;
+  margin-left:32%;
+  margin-top:5%;
+  margin-right:32%;
+  width:36%;
+  height:100%;
+  vertical-align:top;
+}
+
+.browser{
+  display:inline-block;
+  position:relative;
+  width:100%;
+  margin-bottom:30px;
+  border:2px solid;
+  border-radius:3px;
+  text-align:justify;
+  background-color:var(--bgcolor);
+  padding:0px 0px 10px 0px;
+}
+
+.browser-bar{
+  display:inline-block;
+  width:100%;
+  border-bottom:2px solid;
+  padding-bottom:5px;
+  height:2em;
+  vertical-align:middle;
+}
+
+#left-icons{
+  position:floating;
+  padding:5px 5px 5px 5px;
+  width:20%;
+  margin-left:0%;
+  margin-right:70%;
+  margin-top:-0.5em;
+  vertical align:center;
+}
+
+#url {
+  position:floating;
+  padding:5px 5px 5px 5px;
+  border:2px solid;
+  border-radius:3px;
+  background-color:var(--wallpaper);
+  width:70%;
+  margin-left:14%;
+  margin-top:-2.3em;
+  margin-right:30%;
+  font-size:0.8em;
+}
+
+#right-icons{
+  position:floating;
+  padding:5px 5px 5px 5px;
+  width:10%;
+  margin-left:85%;
+  margin-right:10%;
+  margin-top:-2.2em;
+  vertical align:center;
+}
+
+.right-sidebar{
+  display:inline-block;
+  position:fixed;
+  margin-left:70%;
+  margin-right:15%;
+  margin-top:5%;
+  width:15%;
+  text-align:left;
+}
+
+.box{
+  border:2px solid;
+  border-color:var(bordercolor);
+  border-radius:3px;
+  background-color:var(--bgcolor);
+  padding:0px 0px 10px 0px;
+  margin-bottom:4%;
+  margin-top:0;
+  font-weight: bold;
+}
+
+
+.controls{
+  text-align:right;
+  font-size:0.75em;
+  width:100%;
+  border-bottom:2px solid;
+  margin-bottom:10px;
+}
+
+.controls i, .content i, .browser-bar i{
+  padding-left:0;
+}
+
+.content{
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:10px;
+}
+
+.column-1{
+  vertical-align: top;
+  display:inline-block;
+  position:relative;
+  width:47%;
+  margin-right:2%;
+  margin-left:1%;
+  text-align:justify;
+  padding:0px 0px 10px 0px;
+}
+
+.column-2{
+  display:inline-block;
+  position:relative;
+  width:47%;
+  margin-right:0%;
+  margin-left:2%;
+  text-align:justify;
+  padding:0px 0px 10px 0px;
+}

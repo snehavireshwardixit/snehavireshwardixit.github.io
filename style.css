@@ -9,12 +9,12 @@
 
 /*---BASIC STYLE OPTIONS---*/
 :root{
-  --textcolor:#1d1d1d;
-  --bgcolor:#fcfafc;
-  --wallpaper:#ccc;
-  --accent1:#FF59A1;
-  --accent2:#5C7AFF;
-  --bordercolor:#1d1d1d;
+  --textcolor:#2E2952;
+  --bgcolor:#FFF8F3;
+  --wallpaper:#DB4C40;
+  --accent1:#FF3C3C;
+  --accent2:#337CA0;
+  --bordercolor:#2E2952;
 }
 
 ::selection{
@@ -53,6 +53,7 @@ img{
   max-width:100%;
   border:2px solid;
   border-radius:3px;
+  border-color: var(--bordercolor);
 }
 
 a{
@@ -81,7 +82,7 @@ a:hover{
   margin-top:5%;
   width:10%;
   border:2px solid;
-  border-color:var(bordercolor);
+  border-color:var(--bordercolor);
   border-radius:3px;
   background-color:var(--bgcolor);
   padding:0px 0px 0.25% 0px;
@@ -91,6 +92,7 @@ a:hover{
 .left-sidebar img{
   width:100%;
   border:2px solid;
+  border-color: var(--bordercolor);
 }
 
 
@@ -103,7 +105,7 @@ a:hover{
   margin-top:3%;
   border:2px solid;
   border-radius:3px;
-  background-color:var(--textcolor);
+  background-color:var(--bordercolor);
   border-color:var(--bordercolor);
   color:var(--bgcolor);
   text-decoration:none;
@@ -145,6 +147,7 @@ a:hover{
   margin-bottom:30px;
   border:2px solid;
   border-radius:3px;
+  border-color:var(--bordercolor);
   text-align:justify;
   background-color:var(--bgcolor);
   padding:0px 0px 1% 0px;
@@ -162,7 +165,7 @@ a:hover{
 
 .box{
   border:2px solid;
-  border-color:var(bordercolor);
+  border-color:var(--bordercolor);
   border-radius:3px;
   background-color:var(--bgcolor);
   padding:0px 0px 3% 0px;
@@ -178,7 +181,7 @@ a:hover{
   width:100%;
   border-bottom:2px solid;
   margin-bottom:3%;
-  background-color:var(--textcolor);
+  background-color:var(--bordercolor);
   color:var(--bgcolor);
 }
 

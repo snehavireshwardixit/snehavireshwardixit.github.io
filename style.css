@@ -9,12 +9,13 @@
 
 /*---BASIC STYLE OPTIONS---*/
 :root{
-  --textcolor:#2E2952;
-  --bgcolor:#FFF8F3;
+  --textcolor:#2B2B2B;
+  --bgcolor:#fff;
   --wallpaper:#DB4C40;
-  --accent1:#FF3C3C;
-  --accent2:#337CA0;
-  --bordercolor:#2E2952;
+  --accent1:#d40000;
+  --accent2:#2a1fff;
+  --bordercolor:#2B2B2B;
+  --control:#2a1fff;
 }
 
 ::selection{
@@ -35,7 +36,9 @@ body{
   font-weight:bold;
   font-size:13px;
   color:var(--textcolor);
-  background-color: var(--wallpaper);
+  background-image: url(1536061.jpg);
+  background-attachment:fixed;
+  background-size:cover;
   line-height:170%;
   word-wrap:break-word;
   letter-spacing:0.04em;
@@ -105,7 +108,7 @@ a:hover{
   margin-top:3%;
   border:2px solid;
   border-radius:3px;
-  background-color:var(--bordercolor);
+  background-color:var(--control);
   border-color:var(--bordercolor);
   color:var(--bgcolor);
   text-decoration:none;
@@ -180,8 +183,9 @@ a:hover{
   font-size:0.75em;
   width:100%;
   border-bottom:2px solid;
+  border-color:var(--bordercolor);
   margin-bottom:3%;
-  background-color:var(--bordercolor);
+  background-color:var(--control);
   color:var(--bgcolor);
 }
 

@@ -20,7 +20,7 @@
 
 ::selection{
     color:var(--bgcolor);
-    background-color:var(--textcolor);
+    background-color:var(--accent2);
   }
 
 
